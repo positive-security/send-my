@@ -2,6 +2,8 @@
 
 Send My allows you to to upload abritrary data from devices without an internet connection by (ab)using Apple's Find My network. The data is broadcasted via Bluetooth Low Energy and forwarded by nearby Apple devices.
 
+![Send my Overview](Resources/overview.png)
+
 The application consists of two parts:
 - Firmware: An ESP32 firmware that turns the microcontroller into a serial (upload only) modem
 - DataFetcher: A macOS application used to retrieve, decode and display the uploaded data
@@ -22,13 +24,17 @@ Check https://positive.security/blog/send-my for details.
 2. Check [the Firmware README.md](Firmware/ESP32/README.md) for flashing instructions
 3. After boot, the ESP32 will immediately broadcast the default message in a loop until a new message is received via the serial interface. Messages can be sent to the modem e.g. using the Arduino IDE's Serial Monitor.
 
+![ESP32 modem serial output](Resources/modem.gif)
+
 ## The DataFetcher
 
 1. Install OpenHaystack including the AppleMail plugin as explained https://github.com/seemoo-lab/openhaystack#installation
 2. Run OpenHaystack and ensure that the AppleMail plugin indicator is green
-3. Run the DataFetcher OFFetchReport application
+3. Run the DataFetcher OFFetchReport application (either the Release version or build it yourself by opening `DataFetcher/DataFetcher.xcodeproj` in XCode and running the OFFetchReport target)
 4. Insert the 4 byte `modem_id` previously set in the ESP firmware as hex digits
 5. Fetch uploaded messages
+
+![Data retrieval macOS app](Resources/retriever.gif)
 
 # References
 
