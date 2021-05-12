@@ -28,7 +28,7 @@ Check https://positive.security/blog/send-my for details.
 
 ## The DataFetcher
 
-1. Install OpenHaystack including the AppleMail plugin as explained https://github.com/seemoo-lab/openhaystack#installation
+1. Install OpenHaystack including the AppleMail plugin as explained in https://github.com/seemoo-lab/openhaystack#installation
 2. Run OpenHaystack and ensure that the AppleMail plugin indicator is green
 3. Run the DataFetcher OFFetchReport application (either the Release version or build it yourself by opening `DataFetcher/DataFetcher.xcodeproj` in XCode and running the OFFetchReport target)
 4. Insert the 4 byte `modem_id` previously set in the ESP firmware as hex digits
