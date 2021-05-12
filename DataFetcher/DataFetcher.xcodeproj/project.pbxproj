@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		782AC6C425F0E2D200554BF4 /* Run OFFetchReports */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 782AC6C525F0E2D200554BF4 /* Build configuration list for PBXAggregateTarget "Run OFFetchReports" */;
+			buildPhases = (
+				782AC6C825F0E2DC00554BF4 /* Codesign App with Entitlements */,
+			);
+			dependencies = (
+				782AC6CA25F0E2EB00554BF4 /* PBXTargetDependency */,
+			);
+			name = "Run OFFetchReports";
+			productName = "Run OFFetchReports";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1F701E852641FF0500B0C3A9 /* AnisetteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F701E842641FEFD00B0C3A9 /* AnisetteDataManager.swift */; };
+		1F701E90264202B200B0C3A9 /* OpenHaystackPluginService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F701E8A264202B200B0C3A9 /* OpenHaystackPluginService.m */; };
+		1F701E91264202B200B0C3A9 /* AppleAccountData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F701E8D264202B200B0C3A9 /* AppleAccountData.m */; };
+		1F701E92264202B200B0C3A9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F701E8E264202B200B0C3A9 /* Info.plist */; };
+		1F701E93264202B200B0C3A9 /* ALTAnisetteData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F701E8F264202B200B0C3A9 /* ALTAnisetteData.m */; };
+		782AC6A125F0DF3000554BF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782AC6A025F0DF3000554BF4 /* AppDelegate.swift */; };
+		782AC6A525F0DF3100554BF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 782AC6A425F0DF3100554BF4 /* Assets.xcassets */; };
+		782AC6A825F0DF3100554BF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 782AC6A725F0DF3100554BF4 /* Preview Assets.xcassets */; };
+		782AC6AB25F0DF3100554BF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782AC6A925F0DF3100554BF4 /* Main.storyboard */; };
+		782AC6B325F0DF7C00554BF4 /* OFFetchReportsMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782AC6B125F0DF7C00554BF4 /* OFFetchReportsMainView.swift */; };
+		782AC6C125F0E02200554BF4 /* BoringSSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 782AC6BF25F0E02200554BF4 /* BoringSSL.m */; };
+		782AC6D325F0E3F600554BF4 /* FindMyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782AC6CF25F0E3F600554BF4 /* FindMyController.swift */; };
+		782AC6D425F0E3F600554BF4 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782AC6D025F0E3F600554BF4 /* Models.swift */; };
+		782AC6D825F0E3FE00554BF4 /* ReportsFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 782AC6D725F0E3FE00554BF4 /* ReportsFetcher.m */; };
+		782AC6DB25F0E4C800554BF4 /* NIOSSL in Frameworks */ = {isa = PBXBuildFile; productRef = 782AC6DA25F0E4C800554BF4 /* NIOSSL */; };
+		782AC6DE25F0E4D900554BF4 /* Crypto in Frameworks */ = {isa = PBXBuildFile; productRef = 782AC6DD25F0E4D900554BF4 /* Crypto */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		782AC6C925F0E2EB00554BF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78097EBB248E27E700096FCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 782AC69D25F0DF3000554BF4;
+			remoteInfo = OFFetchReports;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F701E842641FEFD00B0C3A9 /* AnisetteDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnisetteDataManager.swift; sourceTree = "<group>"; };
+		1F701E89264202B200B0C3A9 /* AppleAccountData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleAccountData.h; sourceTree = "<group>"; };
+		1F701E8A264202B200B0C3A9 /* OpenHaystackPluginService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenHaystackPluginService.m; sourceTree = "<group>"; };
+		1F701E8B264202B200B0C3A9 /* ALTAnisetteData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTAnisetteData.h; sourceTree = "<group>"; };
+		1F701E8C264202B200B0C3A9 /* OpenHaystackPluginService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenHaystackPluginService.h; sourceTree = "<group>"; };
+		1F701E8D264202B200B0C3A9 /* AppleAccountData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleAccountData.m; sourceTree = "<group>"; };
+		1F701E8E264202B200B0C3A9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F701E8F264202B200B0C3A9 /* ALTAnisetteData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTAnisetteData.m; sourceTree = "<group>"; };
+		782AC69E25F0DF3000554BF4 /* OFFetchReports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OFFetchReports.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		782AC6A025F0DF3000554BF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		782AC6A425F0DF3100554BF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		782AC6A725F0DF3100554BF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		782AC6AA25F0DF3100554BF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		782AC6AC25F0DF3100554BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		782AC6B125F0DF7C00554BF4 /* OFFetchReportsMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OFFetchReportsMainView.swift; sourceTree = "<group>"; };
+		782AC6B525F0DFF200554BF4 /* OFFetchReports.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = OFFetchReports.entitlements; sourceTree = "<group>"; };
+		782AC6BF25F0E02200554BF4 /* BoringSSL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoringSSL.m; sourceTree = "<group>"; };
+		782AC6C025F0E02200554BF4 /* BoringSSL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoringSSL.h; sourceTree = "<group>"; };
+		782AC6C225F0E07200554BF4 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		782AC6CB25F0E33000554BF4 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		782AC6CF25F0E3F600554BF4 /* FindMyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindMyController.swift; sourceTree = "<group>"; };
+		782AC6D025F0E3F600554BF4 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		782AC6D625F0E3FE00554BF4 /* ReportsFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportsFetcher.h; sourceTree = "<group>"; };
+		782AC6D725F0E3FE00554BF4 /* ReportsFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportsFetcher.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		782AC69B25F0DF3000554BF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782AC6DB25F0E4C800554BF4 /* NIOSSL in Frameworks */,
+				782AC6DE25F0E4D900554BF4 /* Crypto in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F701E88264202B200B0C3A9 /* OpenHaystackMail */ = {
+			isa = PBXGroup;
+			children = (
+				1F701E89264202B200B0C3A9 /* AppleAccountData.h */,
+				1F701E8A264202B200B0C3A9 /* OpenHaystackPluginService.m */,
+				1F701E8B264202B200B0C3A9 /* ALTAnisetteData.h */,
+				1F701E8C264202B200B0C3A9 /* OpenHaystackPluginService.h */,
+				1F701E8D264202B200B0C3A9 /* AppleAccountData.m */,
+				1F701E8E264202B200B0C3A9 /* Info.plist */,
+				1F701E8F264202B200B0C3A9 /* ALTAnisetteData.m */,
+			);
+			path = OpenHaystackMail;
+			sourceTree = SOURCE_ROOT;
+		};
+		78097EBA248E27E700096FCA = {
+			isa = PBXGroup;
+			children = (
+				782AC6CB25F0E33000554BF4 /* .swiftlint.yml */,
+				782AC69F25F0DF3000554BF4 /* OFFetchReports */,
+				78097EC4248E27E700096FCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78097EC4248E27E700096FCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				782AC69E25F0DF3000554BF4 /* OFFetchReports.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		782AC69F25F0DF3000554BF4 /* OFFetchReports */ = {
+			isa = PBXGroup;
+			children = (
+				1F701E88264202B200B0C3A9 /* OpenHaystackMail */,
+				1F701E842641FEFD00B0C3A9 /* AnisetteDataManager.swift */,
+				782AC6CC25F0E3F600554BF4 /* FindMy */,
+				782AC6BE25F0E02200554BF4 /* BoringSSL */,
+				782AC6B125F0DF7C00554BF4 /* OFFetchReportsMainView.swift */,
+				782AC6A025F0DF3000554BF4 /* AppDelegate.swift */,
+				782AC6B525F0DFF200554BF4 /* OFFetchReports.entitlements */,
+				782AC6A425F0DF3100554BF4 /* Assets.xcassets */,
+				782AC6A925F0DF3100554BF4 /* Main.storyboard */,
+				782AC6AC25F0DF3100554BF4 /* Info.plist */,
+				782AC6A625F0DF3100554BF4 /* Preview Content */,
+			);
+			path = OFFetchReports;
+			sourceTree = "<group>";
+		};
+		782AC6A625F0DF3100554BF4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				782AC6A725F0DF3100554BF4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		782AC6BE25F0E02200554BF4 /* BoringSSL */ = {
+			isa = PBXGroup;
+			children = (
+				782AC6BF25F0E02200554BF4 /* BoringSSL.m */,
+				782AC6C025F0E02200554BF4 /* BoringSSL.h */,
+				782AC6C225F0E07200554BF4 /* Bridging-Header.h */,
+			);
+			path = BoringSSL;
+			sourceTree = "<group>";
+		};
+		782AC6CC25F0E3F600554BF4 /* FindMy */ = {
+			isa = PBXGroup;
+			children = (
+				782AC6D525F0E3FE00554BF4 /* ReportsFetcher */,
+				782AC6CF25F0E3F600554BF4 /* FindMyController.swift */,
+				782AC6D025F0E3F600554BF4 /* Models.swift */,
+			);
+			path = FindMy;
+			sourceTree = "<group>";
+		};
+		782AC6D525F0E3FE00554BF4 /* ReportsFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				782AC6D625F0E3FE00554BF4 /* ReportsFetcher.h */,
+				782AC6D725F0E3FE00554BF4 /* ReportsFetcher.m */,
+			);
+			name = ReportsFetcher;
+			path = OFFetchReports/ReportsFetcher;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		782AC69D25F0DF3000554BF4 /* OFFetchReports */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 782AC6B025F0DF3100554BF4 /* Build configuration list for PBXNativeTarget "OFFetchReports" */;
+			buildPhases = (
+				782AC69A25F0DF3000554BF4 /* Sources */,
+				782AC69B25F0DF3000554BF4 /* Frameworks */,
+				782AC69C25F0DF3000554BF4 /* Resources */,
+				782AC6C325F0E2A300554BF4 /* SwiftLint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OFFetchReports;
+			packageProductDependencies = (
+				782AC6DA25F0E4C800554BF4 /* NIOSSL */,
+				782AC6DD25F0E4D900554BF4 /* Crypto */,
+			);
+			productName = OFFetchReports;
+			productReference = 782AC69E25F0DF3000554BF4 /* OFFetchReports.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78097EBB248E27E700096FCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "PS Positive Security GmbH";
+				TargetAttributes = {
+					782AC69D25F0DF3000554BF4 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					782AC6C425F0E2D200554BF4 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 78097EBE248E27E700096FCA /* Build configuration list for PBXProject "DataFetcher" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78097EBA248E27E700096FCA;
+			packageReferences = (
+				782AC6D925F0E4C800554BF4 /* XCRemoteSwiftPackageReference "swift-nio-ssl" */,
+				782AC6DC25F0E4D900554BF4 /* XCRemoteSwiftPackageReference "swift-crypto" */,
+			);
+			productRefGroup = 78097EC4248E27E700096FCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				782AC69D25F0DF3000554BF4 /* OFFetchReports */,
+				782AC6C425F0E2D200554BF4 /* Run OFFetchReports */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		782AC69C25F0DF3000554BF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782AC6AB25F0DF3100554BF4 /* Main.storyboard in Resources */,
+				782AC6A825F0DF3100554BF4 /* Preview Assets.xcassets in Resources */,
+				782AC6A525F0DF3100554BF4 /* Assets.xcassets in Resources */,
+				1F701E92264202B200B0C3A9 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		782AC6C325F0E2A300554BF4 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint autocorrect && swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		782AC6C825F0E2DC00554BF4 /* Codesign App with Entitlements */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Codesign App with Entitlements";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#bin/sh\nidentities=$(security find-identity -p codesigning -v)\n#echo \"${identities}\"\npat=' ([0-9ABCDEF]+) '\n[[ $identities =~ $pat ]]\n# Can be set to a codesign identity manually\nIDT=\"${BASH_REMATCH[1]}\"\nif [ -z ${IDT+x} ]; then\n    echo \"error: Please set the codesigning identity above. \\nThe identity can be found with $ security find-identities -v -p codesigning\"\nelse\n    codesign --entitlements ${SRCROOT}/OFFetchReports/OFFetchReports.entitlements -fs ${IDT} ${TARGET_BUILD_DIR}/OFFetchReports.app/Contents/MacOS/OFFetchReports\n    echo \"warning: This app will only run on macOS systems with SIP & AMFI disabled. This should only be done on dedicated test systems\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		782AC69A25F0DF3000554BF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782AC6B325F0DF7C00554BF4 /* OFFetchReportsMainView.swift in Sources */,
+				782AC6D825F0E3FE00554BF4 /* ReportsFetcher.m in Sources */,
+				1F701E91264202B200B0C3A9 /* AppleAccountData.m in Sources */,
+				1F701E852641FF0500B0C3A9 /* AnisetteDataManager.swift in Sources */,
+				1F701E90264202B200B0C3A9 /* OpenHaystackPluginService.m in Sources */,
+				1F701E93264202B200B0C3A9 /* ALTAnisetteData.m in Sources */,
+				782AC6A125F0DF3000554BF4 /* AppDelegate.swift in Sources */,
+				782AC6C125F0E02200554BF4 /* BoringSSL.m in Sources */,
+				782AC6D325F0E3F600554BF4 /* FindMyController.swift in Sources */,
+				782AC6D425F0E3F600554BF4 /* Models.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		782AC6CA25F0E2EB00554BF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 782AC69D25F0DF3000554BF4 /* OFFetchReports */;
+			targetProxy = 782AC6C925F0E2EB00554BF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		782AC6A925F0DF3100554BF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				782AC6AA25F0DF3100554BF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78097ED4248E27E800096FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78097ED5248E27E800096FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		782AC6AE25F0DF3100554BF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"OFFetchReports/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = OFFetchReports/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "security.positive.send-my.DataFetcher.OFFetchReports";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/OFFetchReports/BoringSSL/Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		782AC6AF25F0DF3100554BF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"OFFetchReports/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = OFFetchReports/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "security.positive.send-my.DataFetcher.OFFetchReports";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/OFFetchReports/BoringSSL/Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		782AC6C625F0E2D200554BF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		782AC6C725F0E2D200554BF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78097EBE248E27E700096FCA /* Build configuration list for PBXProject "DataFetcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78097ED4248E27E800096FCA /* Debug */,
+				78097ED5248E27E800096FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		782AC6B025F0DF3100554BF4 /* Build configuration list for PBXNativeTarget "OFFetchReports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782AC6AE25F0DF3100554BF4 /* Debug */,
+				782AC6AF25F0DF3100554BF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		782AC6C525F0E2D200554BF4 /* Build configuration list for PBXAggregateTarget "Run OFFetchReports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782AC6C625F0E2D200554BF4 /* Debug */,
+				782AC6C725F0E2D200554BF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		782AC6D925F0E4C800554BF4 /* XCRemoteSwiftPackageReference "swift-nio-ssl" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-nio-ssl";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.10.4;
+			};
+		};
+		782AC6DC25F0E4D900554BF4 /* XCRemoteSwiftPackageReference "swift-crypto" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-crypto.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		782AC6DA25F0E4C800554BF4 /* NIOSSL */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 782AC6D925F0E4C800554BF4 /* XCRemoteSwiftPackageReference "swift-nio-ssl" */;
+			productName = NIOSSL;
+		};
+		782AC6DD25F0E4D900554BF4 /* Crypto */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 782AC6DC25F0E4D900554BF4 /* XCRemoteSwiftPackageReference "swift-crypto" */;
+			productName = Crypto;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 78097EBB248E27E700096FCA /* Project object */;
+}
