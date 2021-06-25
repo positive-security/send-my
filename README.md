@@ -1,6 +1,6 @@
 # Send My
 
-Send My allows you to to upload abritrary data from devices without an internet connection by (ab)using Apple's Find My network. The data is broadcasted via Bluetooth Low Energy and forwarded by nearby Apple devices.
+Send My allows you to upload abritrary data from devices without an internet connection by (ab)using Apple's Find My network. The data is broadcasted via Bluetooth Low Energy and forwarded by nearby Apple devices.
 
 ![Send my Overview](Resources/overview.png)
 
